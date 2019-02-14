@@ -14,9 +14,9 @@ public class MainAccount {
         accountList.add(new Account("Savings", 33000));
 
         Test test = new Test();
-        //test.display(accountList);
-        //test.statistics(accountList);
-        //test.filter(accountList);
+        test.display(accountList);
+        test.statistics(accountList);
+        test.filter(accountList);
         test.sort(accountList);
 
     }
